@@ -34,6 +34,7 @@ const StartScreen=(props)=>{
                             <View>
                                 <Text style={style.number}>{inputValue}</Text>
                             </View>
+                            <Button color="#f7287b" title="Start Game"></Button>
                         </Card>
    }
     return (
@@ -75,17 +76,17 @@ const style=StyleSheet.create({
         padding:10
     },
     heading:{
-        fontSize:15,
+        fontSize:20,
        textAlign:'center',
         padding:10
     },
     number:{
-        borderColor:'pink',
-        borderWidth:5,
+        borderColor:'green',
+        borderWidth:3,
         borderRadius:5,
         textAlign:'center',
-        
-        padding:5
+        padding:5,
+        marginVertical:10
         
     },
     inputCont:{
